@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    width: 30rem;
+    height: 15rem;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+button
+{
+    margin-top: 75px;
+    font-size: 30px;
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+body
+{
+    transition: 2s;
+}
